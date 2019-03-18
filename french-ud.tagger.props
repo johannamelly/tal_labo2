@@ -2,7 +2,7 @@
                    model = french-ud.tagger
                     arch = left3words,naacl2003unknowns,unicodeshapes(-1,1)
             wordFunction = 
-               trainFile = format=TSV, wordColumn=2, tagColumn=4, /u/nlp/data/pos-tagger/french/fr-pos-ud-train.conllu
+               testFile = format=TSV,wordColumn=1,tagColumn=3,fr-ud-test.conllu3
          closedClassTags = 
  closedClassTagThreshold = 40
  curWordMinFeatureThresh = 2
@@ -29,7 +29,7 @@ rareWordMinFeatureThresh = 10
           verboseResults = true
     veryCommonWordThresh = 250
                 xmlInput = null
-              outputFile = 
+              outputFile = res_test.txt 
             outputFormat = slashTags
      outputFormatOptions = 
                 nthreads = 1
