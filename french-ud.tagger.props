@@ -1,5 +1,5 @@
 ## tagger training invoked at Wed Feb 21 16:10:29 PST 2018 with arguments:
-                   model = french-ud.tagger
+                   model = models/french-ud-trainedBIS.tagger
                     arch = left3words,naacl2003unknowns,unicodeshapes(-1,1)
             wordFunction = 
                testFile = format=TSV,wordColumn=1,tagColumn=3,fr-ud-test.conllu3

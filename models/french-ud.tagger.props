@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 ## tagger training invoked at Tue Mar 12 15:57:08 CET 2019 with arguments:
                    model = models/french-ud.tagger
                     arch = left3words,naacl2003unknowns,unicodeshapes(-1,1)
             wordFunction = 
                trainFile = fr-ud-dev.conllu3
+=======
+## tagger training invoked at Tue Mar 12 15:26:01 CET 2019 with arguments:
+                   model = models/french-ud.tagger
+                    arch = left3words,naacl2003unknowns,unicodeshapes(-1,1)
+            wordFunction = 
+               trainFile = format=TSV, wordColumn=1, tagColumn=3, /u/nlp/data/pos-tagger/french/fr-pos-ud-train.conllu3
+>>>>>>> 708333e3ccb7d391bdd78962ba506ea635a00d32
          closedClassTags = 
  closedClassTagThreshold = 40
  curWordMinFeatureThresh = 2
